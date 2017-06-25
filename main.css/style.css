@@ -1,0 +1,148 @@
+.carousel{
+    
+    background: white;
+    box-shadow: 10px 6px 70px 3px rgba(0,0,0,0.75);
+    width: 100%;
+}
+
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.bs-example{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#myCarosuel{
+    width: 100%;
+}
+
+.item img{
+    width: 99%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-height: 800px; 
+    height: 700px;
+}
+
+/* CAROSUEL CSS */
+/*
+*{
+    border: 1px solid black;
+}
+*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: rgb(77,32,32);
+}
+
+
+nav{
+    display: flex;
+    text-decoration-style: none;
+    line-height: 6;
+    
+}
+
+#navcontainer{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    background: rgb(51,25,0)
+}
+
+
+.spacer{
+    visibility: hidden;
+    flex-grow: 3;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    margin:0 2rem;
+    padding:0;
+    font-size: 16px;
+    
+}
+
+
+#navheading{
+    color: white;
+    margin-left: 3rem;
+    font-size: 40px;
+    }
+
+
+
+#div-txt{
+    width:100%;
+    text-align: justify;
+    background: rgb(51,25,0);
+    margin:0 auto;
+    font-size: 20px;
+    color:white;
+    border-right: 130px solid rgb(77,32,32);
+    border-left: 130px solid rgb(77,32,32);
+    padding: 5rem;
+    font-size: 22px;
+}
+
+#div-txt1{
+    width:100%;
+    text-align: justify;
+    margin:0 auto;
+    font-size: 16px;
+    background: white;
+    color:black;
+    border-right: 130px solid rgb(242, 243, 244);
+    border-left: 130px solid rgb(242, 243, 244);
+}
+
+
+#div-txt1 h2{
+    text-align: center;
+    padding: 2rem;  
+    font-size: 28px;
+    margin:0;
+    color: rgb(77,32,32);
+    
+}
+
+#div-txt1 p{
+    color: rgb(148, 150, 153);
+    padding: 3rem 20rem;
+    margin-bottom:0;
+}
+
+#copyright{
+    
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top:0;
+    padding: 3rem;
+    }
+
+
+
+
+
+
